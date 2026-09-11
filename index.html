@@ -263,6 +263,8 @@
       object-fit: contain;
       object-position: center bottom;
       filter: drop-shadow(0 28px 30px rgba(46,29,62,.12));
+      -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 84%, rgba(0,0,0,.72) 91%, transparent 100%);
+      mask-image: linear-gradient(to bottom, #000 0%, #000 84%, rgba(0,0,0,.72) 91%, transparent 100%);
     }
 
     .hero-note {
@@ -1029,25 +1031,17 @@
             Avaliações do Google
           </div>
         </div>
-
-        <!--
-          IMPORTANTE:
-          O perfil do Google informado não disponibiliza as avaliações de forma
-          acessível para este arquivo sem uma integração/API do Google Business Profile.
-          Para não inventar depoimentos, os três cartões abaixo estão marcados
-          para receber o texto real das avaliações.
-        -->
-        <div class="review-window" aria-label="Carrossel de avaliações">
+<div class="review-window" aria-label="Carrossel de avaliações">
           <div class="review-track">
             <div class="review-slide">
               <article class="review-card">
                 <div>
                   <div class="stars" aria-label="5 estrelas">★★★★★</div>
-                  <blockquote>“Cole aqui o texto da primeira avaliação real publicada no Google.”</blockquote>
+                  <blockquote>“Excelente profissional! Já a conheço há anos e sempre foi uma pessoa muito gentil, atenciosa e dedicada.”</blockquote>
                 </div>
                 <div class="review-author">
                   <span class="review-avatar">1</span>
-                  <span>Avaliação do Google</span>
+                  <span>Paciente · Avaliação do Google</span>
                 </div>
               </article>
             </div>
@@ -1056,11 +1050,11 @@
               <article class="review-card">
                 <div>
                   <div class="stars" aria-label="5 estrelas">★★★★★</div>
-                  <blockquote>“Cole aqui o texto da segunda avaliação real publicada no Google.”</blockquote>
+                  <blockquote>“Excelente profissional 😁 Não troco por nada, toda família é paciente da Ana”</blockquote>
                 </div>
                 <div class="review-author">
                   <span class="review-avatar">2</span>
-                  <span>Avaliação do Google</span>
+                  <span>Paciente · Avaliação do Google</span>
                 </div>
               </article>
             </div>
@@ -1069,11 +1063,11 @@
               <article class="review-card">
                 <div>
                   <div class="stars" aria-label="5 estrelas">★★★★★</div>
-                  <blockquote>“Cole aqui o texto da terceira avaliação real publicada no Google.”</blockquote>
+                  <blockquote>“eu amei conhecer o espaço dela, super atenciosa e carinhosa. Ameiii❤️❤️”</blockquote>
                 </div>
                 <div class="review-author">
                   <span class="review-avatar">3</span>
-                  <span>Avaliação do Google</span>
+                  <span>Paciente · Avaliação do Google</span>
                 </div>
               </article>
             </div>
